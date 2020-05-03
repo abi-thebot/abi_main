@@ -1,11 +1,16 @@
 # ABI - Automated Bot for Inquiries
 Repositório completo do projeto ABI
 
+Documentos:
+
 - ABI.ipynb: notebook com o código completo do projeto;
 - Bases (documentação abaixo):
   - base_treino_100.csv
   - base_produto.csv
   - base_teste_perguntas.csv
+- imagens: diretório com as figurar utilizadas no notebook.
+
+__ATENÇÃO: para correto funcionamento da interface, baixe todos os arquivos (inclusive a pasta "imagens"), e rode o notebook completo diretamente no ambiente jupyter. A interface gráfica é a última célula do notebook, e ela apenas aparecerá na tela quando a última célula for exectuada. Mas, no corpo do notebook, além dos códigos, há muita informação relevante sobre nossa solução.__
   
 # Documentação das bases
 
