@@ -9,8 +9,11 @@ Documentos:
   - base_produto.csv
   - base_teste_perguntas.csv
 - imagens: diretório com as figurar utilizadas no notebook.
+- notebooks_versões_iniciais: diretório com notebooks exploratórios de diversos modelos e técnicas de NLP. Os diversos testes feitos nestes notebooks auxiliaram a determinar as escolhas do modelo no notebook final "ABI".
 
-__ATENÇÃO: para correto funcionamento da interface, baixe todos os arquivos (inclusive a pasta "imagens"), e rode o notebook completo diretamente no ambiente jupyter. A interface gráfica é a última célula do notebook, e ela apenas aparecerá na tela quando a última célula for exectuada. Mas, no corpo do notebook, além dos códigos, há muita informação relevante sobre nossa solução.__
+O notebook "ABI.ipynb" contém o código completo de todo o processo de importação e processamento das bases, bem como o algoritmo do modelo e a construção da interface gráfica. Além disso, as células de markdown contém explicações detalhadas acerca de todo o procedimento, bem como discussões técnicas e exemplificações. __Assim, para um entendimento completo da solução (inclusive em seu aspecto técnico), sugerimos fortemente a leitura do notebook "ABI.ipynb" juntamente com a execução do código.__
+
+__ATENÇÃO:__ para correto funcionamento da interface, baixe todos os arquivos (inclusive a pasta "imagens"), e rode o notebook completo diretamente no ambiente jupyter. A interface gráfica é a última célula do notebook, e ela apenas aparecerá na tela quando a última célula for exectuada. Mas, no corpo do notebook, além dos códigos, há muita informação relevante sobre nossa solução.
   
 # Documentação das bases
 
@@ -20,7 +23,7 @@ A seguir, descreveremos cada uma das bases utilizadas no projeto.
 
 A base de perguntas contém os dados que utilizamos para treinar nosso modelo de machine learning, ou seja, ela é usada para construir a componente inteligente do modelo. 
 
-O objetivo é que o modelo possa determinar o intent de uma pergunta. Temos, então, um problema supervisionado de classificação.
+O objetivo é que o modelo possa determinar o intent (isto é, a _intenção_, o motivo por trás da pergunta). Temos, então, um problema supervisionado de classificação.
 
 Para resolver o problema, precisamos de uma base de treino supervisionada, isto é, temos que fornecer não somente as perguntas como também seu respectivo intent previamente classificado. Assim, o algoritmo é capaz de "aprender" a identificar o intent de determinada pergunta.
 
@@ -73,4 +76,4 @@ O formato é consistente em todos os registros de determinada coluna, mas varia 
 
 Esta base é bem similar à base de perguntas, em estrutura: temos uma coluna para as perguntas, e outra coluna para os respectivos intents. Sua construção, no entanto, foi um pouco mais livre, pois não nos preocupamos em balancear as classes: simplesmente fomos coletando as perguntas que mais aparecem nos marketplaces, e as classificando.
 
-Uma distinção importante é que, nesta base de testes também temos perguntas com mais de um intent, justamente para testar a habilidade do modelo de classificar perguntas deste tipo.
+Uma distinção importante é que, nesta base de testes também temos perguntas com mais de um intent, justamente para testar a habilidade do modelo de classificar e responder perguntas deste tipo.
