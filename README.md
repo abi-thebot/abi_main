@@ -13,7 +13,7 @@ Documentos:
 
 O notebook "ABI.ipynb" contém o código completo de todo o processo de importação e processamento das bases, bem como o algoritmo do modelo e a construção da interface gráfica. Além disso, as células de markdown contém explicações detalhadas acerca de todo o procedimento, bem como discussões técnicas e exemplificações. __Assim, para um entendimento completo da solução (inclusive em seu aspecto técnico), sugerimos fortemente a leitura do notebook "ABI.ipynb" juntamente com a execução do código.__
 
-__ATENÇÃO:__ para correto funcionamento da interface, baixe todos os arquivos (inclusive a pasta "imagens"), e rode o notebook completo diretamente no ambiente jupyter. A interface gráfica é a última célula do notebook, e ela apenas aparecerá na tela quando a última célula for exectuada. Mas, no corpo do notebook, além dos códigos, há muita informação relevante sobre nossa solução.
+__ATENÇÃO:__ para correto funcionamento da interface, baixe todos os arquivos (inclusive a pasta "imagens"), e rode o notebook completo diretamente no ambiente jupyter. A interface gráfica é a última célula do notebook, e ela apenas aparecerá na tela quando a última célula for exectuada.
   
 # Documentação das bases
 
