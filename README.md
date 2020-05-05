@@ -74,6 +74,6 @@ O formato é consistente em todos os registros de determinada coluna, mas varia 
 
 ## Base de produtos (base_teste_perguntas.csv)
 
-Esta base é bem similar à base de perguntas, em estrutura: temos uma coluna para as perguntas, e outra coluna para os respectivos intents. Sua construção, no entanto, foi um pouco mais livre, pois não nos preocupamos em balancear as classes: simplesmente fomos coletando as perguntas que mais aparecem nos marketplaces, e as classificando.
+Esta base é bem similar à base de perguntas, em estrutura: temos uma coluna para as perguntas, e outra coluna para os respectivos intents. Sua construção, no entanto, foi um pouco mais livre, pois não nos preocupamos em balancear as classes: simplesmente fomos coletando as perguntas que mais aparecem nos marketplaces, e as classificando. Esta base é composta por 600 perguntas, de modo que, juntamente com as 1200 perguntas coletadas para a base de treino, o número total de perguntas coletadas foi de 1800.
 
 Uma distinção importante é que, nesta base de testes também temos perguntas com mais de um intent, justamente para testar a habilidade do modelo de classificar e responder perguntas deste tipo.
